@@ -1,0 +1,11 @@
+1. Loaded House Prices dataset using pandas.
+2. Checked structure using head() and info().
+3. Identified missing values using isnull().sum().
+4. Filled numeric columns using median.
+5. Filled categorical columns using mode.
+6. Checked for duplicate rows using drop_duplicates(), but no duplicates were found.
+7. Created new Price_Category column.
+8. Saved cleaned dataset to CSV.
+9. Created Price_Category column using pd.cut() based on price ranges.
+
+
